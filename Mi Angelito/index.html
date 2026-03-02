@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Angelito 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- FUENTE -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>💖 Feliz Cumpleaños Mi Angelito 💖</h1>
+
+<div class="container">
+<center>
+  <!-- GALERIA -->
+  <div class="galeria">
+
+   </h1><div class="foto" onclick="abrirFoto('foto1.jpeg','Aquí empezó mi historia favorita contigo ❤️')">
+      <img src="foto1.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto2.jpeg','Cada sonrisa tuya es mi felicidad 💕')">
+      <img src="foto2.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto3.jpeg','Contigo todo es mejor, siempre ✨')">
+      <img src="foto3.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto4.jpeg','Eres mi lugar seguro 🫶')">
+      <img src="foto4.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto5.jpeg','Mi regalo de Dios 🙏❤️')">
+      <img src="foto5.jpeg" >
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto6.jpeg','Mi razón para sonreír cada día 😊')">
+      <img src="foto6.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto7.jpeg','Tú y yo, para siempre 💍')">
+      <img src="foto7.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto8.jpeg','Mi persona favorita en el mundo 🌎💕')">
+      <img src="foto8.jpeg">
+    </div>
+
+
+    <div class="foto" onclick="abrirFoto('foto9.jpeg','Gracias por existir, amor mío ❤️')">
+      <img src="foto9.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto10.jpeg','Mi sueño hecho realidad ✨🥹')">
+      <img src="foto10.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto11.jpeg','Te amo más de lo que imaginas 💖🔥')">
+      <img src="foto11.jpeg">
+    </div>
+
+    <div class="foto" onclick="abrirFoto('foto12.jpeg','ERES LA MEJOR MUJER DEL MUNDO 💖🔥')">
+      <img src="foto12.jpeg">
+    </div>
+
+  </div>
+
+  <!-- BOTON MAGICO -->
+  <button id="btnMagico" onclick="activarMagia()">💝 Click aquí-->>>❤️</button>
+
+</div>
+</center>
+
+<!-- MODAL MENSAJE -->
+<div class="modal" id="modal">
+
+  <div class="modal-content">
+
+    <h2>💖 Para Ti Mi Amor 💖</h2>
+
+    <div class="carta">
+
+Mi angelito… 💖<br><br>
+
+Hoy es tu cumpleaños y no podía dejar pasar este día sin escribirte desde lo más profundo de mi corazón.<br><br>
+
+Primero quiero pedirte perdón si alguna vez te he hecho sentir presionada, si en algún momento no supe expresarme bien o si fallé sin querer. A veces no soy el mejor escribiendo, pero todo lo hago desde el amor que siento por ti.<br><br>
+
+Desde que llegaste a mi vida, todo cambió. Cambió mi forma de pensar, de sentir, de amar. Tú me enseñaste que el amor verdadero existe. 💕<br><br>
+
+Eres una mujer increíble, fuerte, hermosa, inteligente, con un corazón enorme. Cualquiera soñaría tenerte, y yo soy bendecido por tenerte a mi lado.<br><br>
+
+A veces me tienes loco 😅❤️, loco de amor, loco por ti, por tu sonrisa, por tu forma de ser.<br><br>
+
+Estoy orgulloso de ti, de todo lo que has superado, de la mujer tan grande que eres hoy.<br><br>
+
+Yo estoy aquí, en tu presente, y quiero estar en tu futuro si Dios me lo permite. ✨<br><br>
+
+No soy perfecto, pero te amo con todo mi corazón. Te amo en todas tus versiones.<br><br>
+
+Gracias por existir, por elegirme, por amarme.<br><br>
+
+Feliz cumpleaños mi princesa 👑💖<br><br>
+
+Te amo hoy y siempre.<br><br>
+
+Con todo mi amor,<br>
+Samu ❤️
+
+</div>
+
+    <button class="close" onclick="cerrar()">Cerrar</button>
+
+  </div>
+
+</div>
+
+
+<!-- MODAL FOTOS -->
+<div class="modal" id="fotoModal">
+
+  <div class="modal-content foto-modal">
+
+    <img id="fotoGrande">
+
+    <p id="fraseFoto"></p>
+
+    <button class="close" onclick="cerrarFoto()">Cerrar</button>
+
+  </div>
+
+</div>
+
+
+<!-- CORAZONES -->
+<div id="corazones"></div>
+
+<!-- FLASH -->
+<div id="flash"></div>
+
+
+<!-- AUDIO -->
+<audio id="music" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+
+
+<!-- JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
